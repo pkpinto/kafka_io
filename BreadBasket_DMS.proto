@@ -1,0 +1,9 @@
+syntax = "proto2";
+package BreadBasket;
+
+message Transaction {
+  required string Date = 1;
+  required string Time = 2;
+  required int32 Transaction = 3;
+  required string Item = 4;
+}
